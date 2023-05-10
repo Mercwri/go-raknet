@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Mercwri/go-raknet/internal/message"
 	"github.com/df-mc/atomic"
-	"github.com/sandertv/go-raknet/internal/message"
 )
 
 const (

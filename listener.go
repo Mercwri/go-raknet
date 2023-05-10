@@ -3,8 +3,6 @@ package raknet
 import (
 	"bytes"
 	"fmt"
-	"github.com/df-mc/atomic"
-	"github.com/sandertv/go-raknet/internal/message"
 	"log"
 	"math"
 	"math/rand"
@@ -12,6 +10,9 @@ import (
 	"os"
 	"sync"
 	"time"
+
+	"github.com/Mercwri/go-raknet/internal/message"
+	"github.com/df-mc/atomic"
 )
 
 // UpstreamPacketListener allows for a custom PacketListener implementation.

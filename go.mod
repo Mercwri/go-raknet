@@ -1,4 +1,4 @@
-module github.com/sandertv/go-raknet
+module github.com/Mercwri/go-raknet
 
 go 1.18
 
